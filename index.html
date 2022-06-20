@@ -23,7 +23,13 @@
           <button class="btn-theme">
             <span>Theme</span>
           </button>
-          <input type="text" class="search-input">
+          <form class="form-search-top">
+            <input type="text" class="search-input thickness" placeholder="    " required>
+            <div class="btn-wrapper">
+              <button class="close-button">X</button>
+              <button class="search-button"></button>
+            </div>
+          </form>
           <a class="newsletter-link" href="#">Already a subscriber?</a>
           <button class="btn-plus">Get MDN Plus</button>
         </div>
@@ -470,8 +476,7 @@
         <h2 class="footer-nav-heading">Developers</h2>
         <ul class="footer-nav-list">
           <li class="footer-nav-item"><a href="#">Web Technologies</a></li>
-          <li class="footer-nav-item"><a href="#">Learn Web</a></li>
-          <li class="footer-nav-item"><a href="#">Development</a></li>
+          <li class="footer-nav-item"><a href="#">Learn Web Development</a></li>
           <li class="footer-nav-item"><a href="#">MDN Plus</a></li>
         </ul>
       </div>
@@ -485,7 +490,11 @@
           </li>
         </ul>
       </div>
-      <div class="page-footer-legal"></div>
+      <div class="page-footer-legal">
+        <p id="license" class="page-footer-legal-text">Visit <a href="#">Mozilla Corporation’s</a> not-for-profit
+          parent, the <a href="#">Mozilla Foundation</a>.<br>Portions of this content are ©1998–2022 by individual
+          mozilla.org contributors. Content available under <a href="#">a Creative Commons license</a>.</p>
+      </div>
     </div>
   </footer>
   <script src="js/main.js"></script>
